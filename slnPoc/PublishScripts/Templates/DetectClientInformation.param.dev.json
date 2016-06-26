@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "PocDetectClientInformations"
+  },
+  "hostingPlanName": {
+    "value": "PocPlan"
+  },
+  "siteLocation": {
+    "value": "East Asia"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "6e3cf62b-e0e9-4b33-8ff2-8d4f3e9542bf"
+  },
+  "resourceGroup": {
+    "value": "PocResource"
+  }
+}

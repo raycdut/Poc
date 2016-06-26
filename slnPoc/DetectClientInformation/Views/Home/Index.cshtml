@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<script src="~/Scripts/node_modules/native-js/dist/nativejs.js"></script>
+<script type="text/javascript">
+// H5 plus事件处理
+function plusReady(){
+	alert( "Device: " + plus.device.model );
+}
+if(window.plus){
+	plusReady();
+}else{
+	document.addEventListener("plusready",plusReady,false);
+}
+</script>
+<div class="row">
+    <div class="col-md-12">
+
+        Client name:<label>@Request.UserHostName</label>
+        <br/>
+        client ip:<label>@Request.UserHostAddress</label>
+
+        <br/>
+        
+    </div>
+
+</div>

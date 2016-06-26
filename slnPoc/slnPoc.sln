@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectClientInformation", "DetectClientInformation\DetectClientInformation.csproj", "{F7598C1F-E748-414C-8DDA-27BB652200D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{7004BB5D-D7B0-4CA0-AA77-391A920687DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{E4CA9726-FB99-4D5F-AFF7-9F1864E3088D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{C6058333-A0FC-445B-BDC1-4C3215A4D55D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\DetectClientInformation.json = PublishScripts\Templates\DetectClientInformation.json
+		PublishScripts\Templates\DetectClientInformation.param.dev.json = PublishScripts\Templates\DetectClientInformation.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7598C1F-E748-414C-8DDA-27BB652200D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7598C1F-E748-414C-8DDA-27BB652200D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7598C1F-E748-414C-8DDA-27BB652200D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7598C1F-E748-414C-8DDA-27BB652200D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4CA9726-FB99-4D5F-AFF7-9F1864E3088D} = {7004BB5D-D7B0-4CA0-AA77-391A920687DC}
+		{C6058333-A0FC-445B-BDC1-4C3215A4D55D} = {7004BB5D-D7B0-4CA0-AA77-391A920687DC}
+	EndGlobalSection
+EndGlobal
